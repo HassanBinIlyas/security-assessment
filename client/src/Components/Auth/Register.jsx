@@ -63,8 +63,8 @@ class Register extends Component {
               <div className="signup-right">
                 <h1>Signup</h1>
                 <form noValidate onSubmit={this.registerSubmit}>
-                  <div class="form-row">
-                    <div class="form-group col-md-12">
+                  <div className="form-row">
+                    <div className="form-group col-md-12">
                       <label htmlFor="name">Full Name</label> <br />
                       <input
                         type="text"
@@ -82,8 +82,8 @@ class Register extends Component {
                       <span className="text-danger">{errors.name}</span>
                     </div>
                   </div>
-                  <div class="form-row">
-                    <div class="form-group col-md-12">
+                  <div className="form-row">
+                    <div className="form-group col-md-12">
                       <label htmlFor="Email">Email</label> <br />
                       <input
                         type="email"
@@ -101,8 +101,8 @@ class Register extends Component {
                       <span className="text-danger">{errors.email}</span>
                     </div>
                   </div>
-                  <div class="form-row">
-                    <div class="form-group col-md-12">
+                  <div className="form-row">
+                    <div className="form-group col-md-12">
                       <label htmlFor="Password">Password</label> <br />
                       <input
                         type="password"
@@ -120,8 +120,8 @@ class Register extends Component {
                       <span className="text-danger">{errors.password}</span>
                     </div>
                   </div>
-                  <div class="form-row">
-                    <div class="form-group col-md-12">
+                  <div className="form-row">
+                    <div className="form-group col-md-12">
                       <label htmlFor="Confirm Password">Confirm Password</label>
                       <br />
                       <input
@@ -140,15 +140,15 @@ class Register extends Component {
                       <span className="text-danger">{errors.password2}</span>
                     </div>
                   </div>
-                  <div class="form-row">
-                    <div class="form-group col-md-12">
+                  <div className="form-row">
+                    <div className="form-group col-md-12">
                       <button type="submit" className="btn btn-md btn-register">
                         Signup
                       </button>
                     </div>
                   </div>
-                  <div class="form-row">
-                    <div class="form-group col-md-12">
+                  <div className="form-row">
+                    <div className="form-group col-md-12">
                       <p>
                         Already have an account ?
                         <Link to="/login" className="text-success">
